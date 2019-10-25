@@ -8,10 +8,11 @@ This TicTacToe developped by Pablo Requena González using SFML 2.5.2 on Manajro
 
 [GitHub](https://github.com/parequena)
 
-Done with:
-Francisco Gallego Durán
-Patricia Compañ Rosique
+Done with:</p>
+Francisco Gallego Durán</p>
+Patricia Compañ Rosique</p>
 
+<p align="center"><img width="620" height="400" src="https://github.com/parequena/TFG_Codemon18/blob/master/Docs/game.gif"></p>
 
 
 ## Compilation
