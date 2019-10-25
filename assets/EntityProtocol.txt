@@ -1,0 +1,30 @@
+// This file will explain Entity's Protocol
+
+/*
+    ENTITY TYPES                    ACTIONS
+*/
+    - Entity                        Look
+    - MovingEnity                   Look, Move
+    - ShootingEntity                Look, Shoot
+    - MoveShootEntity               Look, Move, Shoot (Concatenated actions)
+
+/*
+    ACTIONS
+*/
+
+// Move:
+    - M:{X}:{Y} : That entity will Move on X direction, Y pixels.
+    - Example: 
+        - M:L:3 : Move, Left, 3 pixels.
+        - M:U   : Move, Up, 1 pixel.
+
+// Look
+    - L:{X}     : That entity will look on X direction.
+    - Example:
+    - L:D       : Look, Down.
+
+// Shoot
+    - S:{X}:{Y} : Shoot on X direction, Y times.
+    - Example: 
+        - S:L:3 : Shoot, Left, 3 times.
+        - S:U   : Shoot, Up, 1 time.

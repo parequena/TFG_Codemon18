@@ -1,0 +1,48 @@
+{
+	<Driver Intel A4>
+   Memcheck:Addr4
+   ...
+   obj:/usr/lib/dri/i965_dri.so
+}
+{
+	<Driver Intel A6>
+   Memcheck:Addr8
+   ...
+   obj:/usr/lib/dri/i965_dri.so
+}
+{
+	<Driver Intel Leak>
+   Memcheck:Leak
+   ...
+   obj:/usr/lib/dri/i965_dri.so
+}
+{
+	<Driver Intel Cond>
+   Memcheck:Cond
+   ...
+   obj:/usr/lib/dri/i965_dri.so
+}
+{
+	<LibX11 A4>
+   Memcheck:Addr4
+   ...
+   obj:/usr/lib/libX11.so.6.3.0
+}
+{
+	<LibX11 A6>
+   Memcheck:Addr8
+   ...
+   obj:/usr/lib/libX11.so.6.3.0
+}
+{
+	<LibX11 Leak>
+   Memcheck:Leak
+   ...
+   obj:/usr/lib/libX11.so.6.3.0
+}
+{
+	<LibX11 Cond>
+   Memcheck:Cond
+   ...
+   obj:/usr/lib/libX11.so.6.3.0
+}
